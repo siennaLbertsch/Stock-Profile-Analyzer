@@ -103,7 +103,7 @@ Important methods:
 | `getrange()` | Gets prices over a date range |
 | `trend()` | Calculates total percentage change over the stored period |
 
-### Hash Table
+### `Hash Table`
 
 The script uses a hash table with 509 buckets:
 
@@ -130,7 +130,7 @@ Important functions:
 | `update_stock()` | Replaces an existing stock |
 | `remove_stock()` | Removes a stock from the table |
 
-### Stack
+### `Stack`
 
 The script uses `action_stack` to support undo operations.
 
